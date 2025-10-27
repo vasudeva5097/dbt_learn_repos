@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: WRLRTDK-TB35364
+      database: raw
+      password: 786@Hyderabadi
+      role: Accountadmin
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: VASU2025
+      warehouse: COMPUTE_WH
+  target: dev
